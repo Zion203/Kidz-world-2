@@ -52,6 +52,6 @@ function updateWhatsApp(){
       }
       var rate_list=String(rate2).split(".")
       apiLink+=(`the%20total%20amount%20is%20$${rate_list[0]}%20and%20${rate_list[1]}%20cents`)
-    //   window.location.href=apiLink
-    console.log(apiLink)
+      window.location.href=apiLink
+    
 }
