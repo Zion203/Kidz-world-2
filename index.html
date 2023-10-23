@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids World</title>
+    <link rel="stylesheet" href="kidz.css">
+    
+</head>
+<body>
+    <header id="nav">
+        <img id="logo" src="./assets/kw-logo.png" alt="s">
+        <section id="inline">
+            <img id="kart" src="./assets/cart-icon.png" alt="">
+            <span class="bold up">cart items [</span>
+            <span class="bold up" id="change">0</span>
+            <span class="bold up" >]</span>
+
+        </section>
+
+    </header>
+    <div id="background">
+       <div id="text"> 
+        <p class="title">Shop</p>
+        <p class="title">Have Fun</p>
+        <p class="title">Repeat</p>
+        <p class="hash">#NewAndNow</p>
+        </div>
+        <img src="./assets/kw-background.png" alt="">
+    </div>     
+        
+    <p class="bold">Discover New Books</p>
+    <div id="books">
+        
+        <div class="bokk-list">
+            <img class="imgBook" src="./assets/book1.png" alt="">
+            <p class="bold">This was our pact</p>
+            <p class="grey">Ryan Andrews</p>
+            <span class="bold">$12.00</span>
+            <button class="button" onclick="kart('this was our pacr',12)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img class="imgBook" src="./assets/book2.png" alt="">
+            <p class="bold">The Famous Five</p>
+            <p class="grey">Guid Blyton</p>
+            <span class="bold">$13.23</span>
+            <button class=" button" onclick="kart('The Famous Five',13.23)"><span class="bold-w">Add</span> <img class="buttonKart"  src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/book3.png" alt="" class="imgBook">
+            <p class="bold">Roald Dahl</p>
+            <p class="grey">Quentia Blake</p>
+            <span class="bold">$4.00</span>
+            <button class=" button" onclick="kart('Roald Dahl',4)"> <span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/book4.png" alt="" class="imgBook">
+            <p class="bold">Harry Potter</p>
+            <p class="grey">J.K Rowling</p>
+            <span class="bold">$52.00</span>
+            <button class=" button" onclick="kart('Harry Potter',52)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/book5.png" alt="" class="imgBook">
+            <p class="bold">The Book</p>
+            <p class="grey">Ruskin Bond</p>
+            <span class="bold">$16.00</span>
+            <button class=" button" onclick="kart('The Book',16)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/book6.png" alt="" class="imgBook">
+            <p class="bold">Wimpy kid</p>
+            <p class="grey">Jeff Kinney</p>
+            <span class="bold">$21.00</span>
+            <button class=" button" onclick="kart('Wimpy Kid',21)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+
+    </div>
+    <p class="bold">Discover New Games</p>
+    <div id="Games">
+        
+        <div class="bokk-list">
+            <img class="imgGame" src="./assets/dart-board.png" alt="">
+            <p class="bold">Dard Board</p>
+            <p class="grey">Ryan Andrews</p>
+            <span class="bold">$12.00</span>
+            <button class="game" onclick="kart('Dard Board',12)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img class="imgGame" src="./assets/connect-four.png" alt="">
+            <p class="bold">connect-four</p>
+            <p class="grey">Guid Blyton</p>
+            <span class="bold">$13.23</span>
+            <button class="game" onclick="kart('connect-four',13.23)"><span class="bold-w">Add</span> <img class="buttonKart"  src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/jenga.png" alt="" class="imgGame">
+            <p class="bold">Jenga</p>
+            <p class="grey">Quentia Blake</p>
+            <span class="bold">$12.00</span>
+            <button class="game" onclick="kart('Jenga',12)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/monopoly.png" alt="" class="imgGame">
+            <p class="bold">Monopoly</p>
+            <p class="grey">J.K Rowling</p>
+            <span class="bold">$12.00</span>
+            <button class="game"onclick="kart('Monopoly',12)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+    </div>    
+    <p class="bold">Hand made kits</p>
+    <div id="hand">
+        
+        <div class="bokk-list">
+            <img class="imgGame" src="./assets/bookmarks.png" alt="">
+            <p class="bold">Book marks</p>
+            <p class="grey">Ryan Andrews</p>
+            <span class="bold">$12.00</span>
+            <button class="game" onclick="kart('Book marks',12)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img class="imgGame" src="./assets/dream-catcher.png" alt="">
+            <p class="bold">dream catcher</p>
+            <p class="grey">Guid Blyton</p>
+            <span class="bold">$13.23</span>
+            <button class="game" onclick="kart('dream-catcher',13.23)"><span class="bold-w">Add</span> <img class="buttonKart"  src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/stuffed-toy.png" alt="" class="imgGame">
+            <p class="bold">stuffed-toy</p>
+            <p class="grey">Quentia Blake</p>
+            <span class="bold">$19.00</span>
+            <button class="game"onclick="kart('stuffed-toy',19)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+        <div class="bokk-list">
+            <img src="./assets/birthday-card.png" alt="" class="imgGame">
+            <p class="bold">birthday-card</p>
+            <p class="grey">J.K Rowling</p>
+            <span class="bold">$17.00</span>
+            <button class="game" onclick="kart('birthday-card',17)"><span class="bold-w">Add</span> <img class="buttonKart" src="./assets/cart-icon-white.png" alt=""></button>
+        </div>
+    </div> 
+    <div id="footer">
+        <h1>Brought to you by </h1>
+        <div class="evenly">
+            <img id="footimg" src="./assets/krishti.png" alt="">
+            <section class="end">
+                <span class="bold big">krishti <br></span>
+                <span class="big">Made with love by jesu <br></span>
+                <span class="big">contact jesudaszion@outlook.com</span>
+            </section>
+            
+            
+
+    
+
+
+    
+</body>
+<script src="kidz.js"></script>
+</html>
